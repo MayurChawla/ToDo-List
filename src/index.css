@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #DE970B;
+    --secondary-color: #F6BE00;
+}
+body {
+    background-color: rgba(255, 248, 146, 0.527);
+}
+.App{
+    color: var(--primary-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1-site-title{
+    text-align: center;
+}
+.todo-inputarea {
+    border: 2px solid var(--secondary-color);
+    width:50%;
+    padding:1.25rem;
+    border-radius: 0.5rem;
+    display: block;
+    margin: auto;
+    font-size: large;
+}
+.todo-inputarea:focus {
+    outline: 0;
+}
+.todo-addbutton {
+    padding: 0.75rem;
+    font-size: large;
+    background-color: var(--secondary-color);
+    display: block;
+    color: white;
+    border-radius: 0.5rem;
+    border-color: var(--secondary-color);
+    margin: 50px auto;
+}
+.todo-addbutton:hover {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.todo-note {
+    color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    width:50%;
+    padding:1rem;
+    border-radius: 0.5rem;
+    display: block;
+    margin: auto;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+
+.todo-span {
+}
+.todo-del-btn {
+    margin-left: 0;
+    height: max-content;
+    float: right;
+    font-size: large;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 0.5rem;
+    border-color: var(--secondary-color);
+}
